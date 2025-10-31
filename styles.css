@@ -1,35 +1,55 @@
-
-*{
-    font-family: "Poppins", sans-serif;
-    
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-    background-color: rgb(253, 232, 234);
+body {
+  background-color: rgb(253, 232, 234);
 }
 
-
-header{
-    width: 90%;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+header {
+  width: 90%;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.btn{
-    background-color: rgb(42, 42, 219);
-    color: white;
-    padding: 15px 30px;
-    border-radius: 15px;
-    border: none;
-    
-
+#banner_section {
+  width: 70%;
+  margin: 0 auto;
 }
 
-.btn:hover{
-    background: rgb(59, 59, 182);
-    cursor: pointer;
-    transition: 0.8s;
+#banner_section > h2 {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px  2px  saddlebrown;
+}
+
+#banner_section > p {
+  width: 50%;
+  margin: 0 auto;
+  color: rgb(89, 85, 85);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#buy-now-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgb(42, 42, 219);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 15px;
+  border: none;
+}
+
+.btn:hover {
+  background: rgb(59, 59, 182);
+  cursor: pointer;
+  transition: 0.8s;
 }
