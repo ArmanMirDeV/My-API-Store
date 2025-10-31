@@ -16,7 +16,7 @@ header {
 
 #banner_section {
   width: 70%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 #banner_section > h2 {
@@ -24,7 +24,7 @@ header {
   font-weight: 800;
   text-align: center;
   margin-bottom: 25px;
-  text-shadow: 2px 2px  2px  saddlebrown;
+  text-shadow: 2px 2px 2px saddlebrown;
 }
 
 #banner_section > p {
@@ -33,6 +33,14 @@ header {
   color: rgb(89, 85, 85);
   text-align: center;
   margin-bottom: 25px;
+}
+
+#hero_section {
+  width: 70%;
+  margin: 50px auto;
+}
+#hero_section img {
+  width: 100%;
 }
 
 #buy-now-btn {
