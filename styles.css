@@ -6,6 +6,7 @@ body {
   background-color: rgb(253, 232, 234);
 }
 
+/* Header Section */
 header {
   width: 90%;
   margin: 25px auto;
@@ -14,6 +15,7 @@ header {
   align-items: center;
 }
 
+/*  Banner Section Styles */
 #banner_section {
   width: 70%;
   margin: 50px auto;
@@ -35,6 +37,8 @@ header {
   margin-bottom: 25px;
 }
 
+/*  Hero Section Styles */
+
 #hero_section {
   width: 70%;
   margin: 50px auto;
@@ -47,6 +51,47 @@ header {
   display: flex;
   justify-content: center;
 }
+
+/*  Search Section Styles */
+
+#search_section {
+  width: 70%;
+  margin: 50px auto;
+}
+
+#search_section > h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#search_container {
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+  background: rgb(241, 239, 212);
+  display: flex;
+}
+#search_bar {
+  width: 70%;
+}
+#search_bar > input[type="text"] {
+  padding: 15px;
+  border: none;
+  outline: none;
+  width: 60%;
+  background: rgb(241, 239, 212);
+
+}
+
+#search_btn {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+}
+
+/*  All Button Styles */
 
 .btn {
   background-color: rgb(42, 42, 219);
