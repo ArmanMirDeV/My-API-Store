@@ -34,6 +34,37 @@ const loadPhone = async(searchText) => {
 }
 
 
+
+// Select modal elements
+const modal = document.getElementById("details-modal");
+const openModalBtns = document.querySelectorAll(".btn_h");
+const closeModalBtn = document.getElementById("close-modal");
+
+openModalBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    modal.showModal();
+  });
+});
+
+closeModalBtn.addEventListener("click", () => {
+  modal.close();
+});
+
+modal.addEventListener("click", (event) => {
+  const rect = modal.getBoundingClientRect();
+  const isInDialog =
+    rect.top <= event.clientY &&
+    event.clientY <= rect.top + rect.height &&
+    rect.left <= event.clientX &&
+    event.clientX <= rect.left + rect.width;
+
+  if (!isInDialog) {
+    modal.close();
+  }
+});
+
+
+
 const displayPhone = (data) => {
 
     const cardContainer = document.getElementById('card_section');
